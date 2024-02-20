@@ -11,6 +11,12 @@ public class Main {
         // Can't do this since these are private fields
         // Can't SOP them either
 
+        car.setMake("Porsche");
+        car.setModel("Carrera");
+        car.setDoors(2);
+        car.setConvertible(true);
+        car.setColor("black");
+
         System.out.println("Make:" + car.getMake());
         System.out.println("Model:" + car.getModel());
 
