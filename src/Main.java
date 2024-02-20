@@ -10,9 +10,10 @@ public class Main {
         Car car = new Car();
         // Can't do this since these are private fields
         // Can't SOP them either
-//        car.make = "Porsche";
-//        car.model = "Carrera";
-//        car.color = "Red";
+
+        System.out.println("Make:" + car.getMake());
+        System.out.println("Model:" + car.getModel());
+
         car.describeCar();
 
     }

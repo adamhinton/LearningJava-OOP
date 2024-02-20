@@ -34,6 +34,11 @@ public class Car {
         return convertible;
     }
 
+    public void setMake (String make){
+        // `this` is the key here
+        this.make = make;
+    }
+
     // public bc it gives user a way to interact with the class
   public void describeCar(){
       System.out.println(doors + color + make + model + convertible);
