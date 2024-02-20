@@ -11,4 +11,9 @@ public class Car {
   private int doors;
   private boolean convertible;
 
+  // public bc it gives user a way to interact with the class
+  public void describeCar(){
+      System.out.println(doors + color + make + model + convertible);
+  }
+
 }
