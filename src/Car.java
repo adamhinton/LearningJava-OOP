@@ -5,11 +5,14 @@ public class Car {
 
     // called fields because they're defined in a class's body and not in a method
     // Much like defining interface properties in TS
-  private String make;
-  private String model;
-  private String color;
-  private int doors;
-  private boolean convertible;
+
+    // Can assign default values with this equals sign
+
+    private String make = "Tesla";
+  private String model = "Model X";
+  private String color = "Gray";
+  private int doors = 2;
+  private boolean convertible = true;
 
   // public bc it gives user a way to interact with the class
   public void describeCar(){
