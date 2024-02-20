@@ -8,8 +8,12 @@ public class Main {
         // double/float: 0.0
 
         Car car = new Car();
+        // Can't do this since these are private fields
+        // Can't SOP them either
+//        car.make = "Porsche";
+//        car.model = "Carrera";
+//        car.color = "Red";
         car.describeCar();
-
 
     }
 }
